@@ -65,7 +65,7 @@ FUNCTION find_n, PARAMS (array, wanted_value):
 
   # an+c is the form.
   SET a = second-first
-  SET c = 2\*first-second
+  SET c = 2/*first-second
 
   # do the inverse operations
   SET n = (wanted_value/a)-c
