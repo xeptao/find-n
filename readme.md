@@ -30,7 +30,7 @@ And in fact, it is on pos 4 (result is 1-based).
 
 ## Solution
 
-Read [this](https://github.com/xeptao/find-n/blob/master/assets/info.pdf) nicely written PDF file to get information about the mathematics.
+![info](assets/info.png)
 
 ### Applying the Solution in `Code`
 
