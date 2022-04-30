@@ -34,27 +34,17 @@ Read [this](https://github.com/xeptao/find-n/blob/master/assets/info.pdf) nicely
 
 ### Applying the Solution in `Code`
 
-We know that the `n`'th item is `an+c`. Since we can't solve an equation directly; we should do the inverse operations to isolate `n`. Divide by `a`, and subtract by `c`.
-
-So we have to take in an array, and the number the user wants to find the index of.
-
-Rest is pretty easy, just return `n`.
+It's really easy. Just apply the formula of `n` and return `n`.
 
 #### Summary
 
-We derive `a` and `c` from the [formula](https://github.com/xeptao/find-n#formula-of-nth-item).
-
 ```
 FUNCTION find_n, PARAMS (array, wanted_value):
-  SET first = first item of array
-  SET second = second item of array
+  SET k = first item of array
+  SET l = second item of array
 
-  # an+c is the form.
-  SET a = second-first
-  SET c = 2/*first-second
-
-  # do the inverse operations
-  SET n = (wanted_value/a)-c
+  # apply formula of n
+  SET n = (s-2*k+l)/(l-k)
 
   RETURN n
 ```

@@ -1,14 +1,12 @@
 # expected array structure is every item (int/float)
 # also all of the items should increase or decrease by the same number
-def find_n(array, wanted):
+# read assets/info.pdf or you won't understand the name of the variables
+def find_n(array, s):
     # get first and second item
-    first = array[0]
-    second = array[1]
+    k = array[0]
+    l = array[1]
 
-    # do inverse operations to isolate n
-    # the form is an+c
-    a = second-first
-    c = (2*first)-second
-    n = (wanted/a) - c
+    # apply the formula of n
+    n = (s-2*k+l)/(l-k)
 
-    return {"wanted": wanted, "pos": int(n)}
+    return {"wanted": s, "pos": int(n)}
