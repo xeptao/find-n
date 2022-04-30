@@ -30,21 +30,7 @@ And in fact, it is on pos 4 (result is 1-based).
 
 ## Solution
 
-### Formula of n'th Item
-
-![Formula](/assets/formula.png)
-
-### Proof of Formula
-
-![Proof](/assets/proof.png)
-
-### Formula for `n`
-
-Make the [formula](https://github.com/xeptao/find-n#formula-of-nth-item) equal to the wanted number and solve it.
-
-![Find N](/assets/find-n.png)
-
-And in fact, if you look above, 5 is the 3rd card.
+Read [this](https://github.com/xeptao/find-n/blob/master/assets/info.pdf) nicely written PDF file to get information about the mathematics.
 
 ### Applying the Solution in `Code`
 
